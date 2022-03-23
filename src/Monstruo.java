@@ -7,12 +7,12 @@ public class Monstruo extends Personaje{
     //tentaculos
     //color
     //habilidades
-    private double cuernos;
-    private double tentaculos;
+    private boolean cuernos;
+    private boolean tentaculos;
     private String color;
     private ArrayList<String> habilidades = new ArrayList<>();
 
-    public Monstruo(String nombre, double estatura, double peso, double cuernos, double tentaculos, String color, ArrayList<String> habilidades) {
+    public Monstruo(String nombre, double estatura, double peso, boolean cuernos, boolean tentaculos, String color, ArrayList<String> habilidades) {
         super(nombre, estatura, peso);
         this.cuernos = cuernos;
         this.tentaculos = tentaculos;
