@@ -18,22 +18,22 @@ public class Monstruo extends Personaje{
         this.tentaculos = tentaculos;
         this.color = color;
         this.habilidades = habilidades;
-        System.out.println("Soy el constructor hijo");
+        System.out.println("Soy el constructor monstruo");
     }
 
-    public double getCuernos() {
+    public boolean getCuernos() {
         return cuernos;
     }
 
-    public void setCuernos(double cuernos) {
+    public void setCuernos(boolean cuernos) {
         this.cuernos = cuernos;
     }
 
-    public double getTentaculos() {
+    public boolean getTentaculos() {
         return tentaculos;
     }
 
-    public void setTentaculos(double tentaculos) {
+    public void setTentaculos(boolean tentaculos) {
         this.tentaculos = tentaculos;
     }
 
@@ -56,7 +56,13 @@ public class Monstruo extends Personaje{
     //espantar
     //trabajar
     //hacerReir
-    public void espantar(){}
-    public void trabajar(){}
-    public void hacerReir(){}
+    public void espantar(){
+        System.out.println("Espantando");
+    }
+    public void trabajar(){
+        System.out.println("trabajando");
+    }
+    public void hacerReir(){
+        System.out.println("JAJAJAJAJAJA");
+    }
 }
